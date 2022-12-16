@@ -37,7 +37,7 @@ fi
 
 echo "脚本由 www.haojieyun.com 提供。专业的服务器提供商~"
 echo -e "\033[33m 请输入我们的暗号~ \033[0m"&&read id
-if [ "$id" = "www.haojieyun.com" ];then
+if [ "$id" = "123456" ];then
    echo 正在处理，请耐心等待
    echo -e "\033[33m-------若为多IP服务器请确认是否已配置好IP地址...按任意键继续 或按 Ctrl+c 取消-------\033[0m"&&read -s -n1
    echo;rm -fr /tmp/cut&&touch /tmp/cut
